@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text-primary {color: #0c1d37;}
+.text-secondary {color: #e92c43;}
+.text-white {color: white;}
+
+a {text-decoration: none;}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url('img/me.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    padding: 40px 30px;
+}
+header h3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+main{
+    display: grid;
+    grid-template-columns: lfr 3.3fr;
+}
+.line{
+    width: 25%;
+    height: 6px;
+    background-color: rgb(167, 172, 236);
+    margin-top: 150px;
+}
+.jumbotron {
+    text-align: center;
+}
+.jumbotron__name{
+    margin-bottom: 20px;
+}
+.jumbotron__name h1{
+    font-size: 3.1rem;
+    font-weight: bolder;
+}
+.jumbotron__social_media a{
+    margin-right: 0.4rem;
+}
+.jumbotron__social_media a .iconify{
+    font-size: 30px;
+    cursor: pointer;
+}
+.jumbotron__button{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    padding: 10 px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px rgba(43, 38, 38, 0.03); 
+}
+.img{
+    width: 250px;
+    height:   200px;
+    margin-left: 450px;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+}
+      
